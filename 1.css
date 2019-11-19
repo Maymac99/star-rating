@@ -48,3 +48,12 @@
 .star-rating i ~ i ~ i ~ i ~ i {
   width: 100%;
 }
+::after,
+::before {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+  vertical-align: middle;
+}
